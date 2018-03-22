@@ -1,0 +1,12 @@
+com='head -n 1 /proc/meminfo | cut -c18-24'
+        self.ram.setText(str(int(self.comando(com))/1024)+ " Mb")
+        com='uname -m'
+        self.arq.setText(self.comando(com))
+        com='cat /etc/issue.net'
+        self.so.setText(self.comando(com))
+        com='lscpu | grep -i \'model name\' | cut -c 24-63'
+        self.proc.setText(self.comando(com))
+        com='nproc --all'
+        self.nproc.setText(self.comando(com))
+        com= 'df -h /dev/sda1 | tail -n 1 | cut -c 18-20'
+        self.strg.setText(self.comando(com)+" Gb")

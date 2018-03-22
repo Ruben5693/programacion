@@ -1,0 +1,18 @@
+Entero(Número de experimentos)
+Entero(Tamaño del tablero del experimento 1)
+Entero(Semilla para generar el tablero del experimento 1)
+Entero(Vecindad máxima del experimento 1)
+Entero(número de iteraciones del experimento 1)
+Entero(Tamaño del tablero del experimento 2)
+Entero(Semilla para generar el tablero del experimento 2)
+Entero(Vecindad máxima del experimento 2)
+Entero(número de iteraciones del experimento 2)
+...
+Entero(Tamaño del tablero del experimento N)
+Entero(Semilla para generar el tablero del experimento N)
+Entero(Vecindad máxima del experimento N)
+Entero(número de iteraciones del experimento N)
+
+
+Los valores pueden estar separados por saltos de línea o por espacios.
+IMPORTANTE: No se deberán usar letras ni líneas en blanco ya que el programa principal no hace ningún control sobre el formato del fichero, simplemente lee números de forma consecutiva. Además, se leerán tantos grupos de parámetros como se indique en la primera línea del fichero, por lo que si se añaden grupos adicionales, no se tendrán en cuenta, y si faltan grupos, el comportamiento será impredecible

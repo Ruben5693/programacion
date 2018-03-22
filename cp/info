@@ -1,0 +1,10 @@
+cp08
+CompPar08
+ssh cp08@158.49.227.224
+ssh node004
+
+scp * cp08@158.49.227.224/home/cp08/proyecto
+
+berme:
+CompPar07
+ssh cp07@158.49.227.224
