@@ -5,7 +5,7 @@ import commands
 from PyQt4 import QtCore, QtGui, uic
 
 # Cargar nuestro archivo .ui
-form_class = uic.loadUiType("interfazInfo.ui")[0]
+form_class = uic.loadUiType("/home/ruben/Escritorio/programacion/programacion/tfg/interfaz_2/interfazInfo.ui")[0]
 ruta=""
 class MyWindowClass(QtGui.QMainWindow, form_class):
     def __init__(self, parent=None):
